@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#timer1, #timer2 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.warning {
+    color: red;
+    animation: pulse 0.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+}
